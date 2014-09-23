@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2D Clock</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/clock.js"></script>
+    </head>
+    <body>
+        <canvas width="200" height="400" id="first"></canvas>
+        <canvas width="400" height="400" id="second"></canvas>
+        <canvas width="300" height="400" id="third"></canvas>
+        <script type="text/javascript">            
+            yvClock.showClock(document.getElementById("first"), "#ffaaaa", "#801515");
+            yvClock.showClock(document.getElementById("second"), "#6249af", "#20183a");
+            yvClock.showClock(document.getElementById("third"), "#44c94d", "#164319");
+        </script>
+    </body>
+</html>
